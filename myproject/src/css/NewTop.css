@@ -1,0 +1,76 @@
+.NewCard {
+  margin: 0 auto;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 390px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+.swiperimg {
+  width: 100%;
+  height: 100%;
+}
+.gutter-row {
+  margin-top: 8px;
+}
+.gutter-box {
+  display: block;
+  background-color: #ebebeb;
+  height: 50px;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  transition: ease-in, 0.3s;
+}
+.gutter-box:hover {
+  background-color: #343433;
+  color: white;
+}
+.NewMid {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.New_left {
+  width: 270px;
+}
+.New_left > div:nth-child(1) {
+  width: 100%;
+  height: 50px;
+  font-weight: 800;
+  padding: 15px;
+  color: #222;
+  background-color: #ebebeb;
+}
+.MenuInner {
+  width: 90%;
+  text-align: center;
+}
+.MenuButton {
+  margin-top: 10px;
+  width: 90%;
+}
+.New1 {
+  width: 850px;
+  min-height: 2000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+.New1Top {
+  width: 100%;
+  height: 60px;
+  background-color: #343433;
+  color: white;
+  font-size: 20px;
+  line-height: 60px;
+  padding-left: 20px;
+}

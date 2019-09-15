@@ -1,0 +1,33 @@
+.HeaderBot {
+  height: 75px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.HeaderBotRow {
+  min-width: 1150px;
+  width: 90%;
+  height: 75px;
+  position: relative;
+  padding: 0 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.HeaderBotCol {
+  display: flex;
+}
+.HeaderBotCol > div {
+  margin-left: 10px;
+  padding-top: 6px;
+}
+.HeaderBotCol > div > div:nth-child(1) {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: bold;
+  color: #343433;
+}
+.HeaderBotCol > div > div:nth-child(2) {
+  font-size: 11px;
+  line-height: 11px;
+  color: #343433;
+}
